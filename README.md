@@ -1,0 +1,2 @@
+# ctrlsets
+$top[1] = Iniread(20) $tar[2] = Iniread(21)  $top[2] = Iniread(30)  $Tab1 = $tar[0] to $top[0]  $Tab2 = $tar[1] to $top[1]  $tab3 = $tar[2] to $top[2]  I just simulated for easy understanding, so I didn't write enough structure --------------------------  I use this to show tabs  If $label &lt;= $tar[0] And $label >= $top[0] then Guictrlsetstate($tab1, $gui_show)  ElseIf $label &lt;= $tar[1] And $label >= $top[1] then  Guictrlsetstate($tab2, $gui_show)  ElseIf $label &lt;= $tar[2] And $label >= $top[2] then 
